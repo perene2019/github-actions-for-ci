@@ -10,7 +10,7 @@ jobs:
         with:
           name: webpack artifacts
           path: public/
-    
+    needs: build
     runs-on: ubuntu-latest
     
     steps:
